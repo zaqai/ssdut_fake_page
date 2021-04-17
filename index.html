@@ -1,1 +1,224 @@
-<p>testjj</p>
+ <div class="linear">
+        <!-- 色彩渐变背景 -->
+        <div class="snow">
+            <!-- 动态雪景 -->
+            <div class="top">
+                <!-- 顶部内容 -->
+                <div class="top-wp">
+                    <!-- 顶部软院logo -->
+                    <div class="baidu">
+                        <form action="http://www.baidu.com/s" target="_blank">
+                            <label for="searchBaidu">百度搜索</label>
+                            <input id="searchBaidu" type="text" name="wd" />
+                            <input id="search_logo" type="submit" value="搜索" />
+                        </form>
+                    </div>
+                    <div class="menu">
+                        <!-- 导航栏 -->
+                        <div class="center">
+                            <ul class="ul-list">
+                                <li><a href="http://ssdut.dlut.edu.cn/">首页</a></li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/xygk1/xygk.htm">学院概况</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">学院简介</a></li>
+                                        <li><a href="">现任领导</a></li>
+                                        <li><a href="">机构设置</a></li>
+                                        <li><a href="">学院风光</a></li>
+                                        <li><a href="">院史展厅</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/ywgg/xueyuanxinwen.htm">院务公告</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">学院新闻</a></li>
+                                        <li><a href="">院务公开</a></li>
+                                        <li><a href="">院内文件</a></li>
+                                        <li><a href="">教工周知</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/xkyky/xkjs.htm">学科与科研</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">学科建设</a></li>
+                                        <li><a href="">研究机构</a></li>
+                                        <li><a href="">科研成果</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/szdw/szgk.htm">师资队伍</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">师资概况</a></li>
+                                        <li><a href="">教师信息</a></li>
+                                        <li><a href="">职称排列</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="#">本科生培养</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">本科生教学</a></li>
+                                        <li><a href="">本科生管理</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/yjspy.htm">研究生培养</a> </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/bkspy/bksgl/zsjy.htm">招生就业</a> </li>
+                                <li> <a href="#">党群工作</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">工会之家</a></li>
+                                        <li><a href="">党建园地</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/hzjl.htm">合作交流</a>
+                                    <ol class="ol-list">
+                                        <li><a href="">校际合作</a></li>
+                                        <li><a href="">校企合作</a></li>
+                                        <li><a href="">重要通知</a></li>
+                                    </ol>
+                                </li>
+                                <li> <a href="http://ssdut.dlut.edu.cn/en.htm">ENGLISH</a> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div id="lunbo">
+                        <!-- 轮播图 -->
+                        <ul>
+                            <li> <img src="imgs/lunbo1.png" width="1000px" height="384px" alt="" /> </li>
+                            <li> <a href="http://ss.dlut.edu.cn/info/1070/18463.htm"> <img src="imgs/lunbo2.png"
+                                        width="1000px" height="384px" alt="" /></a> </li>
+                            <li> <a href="http://www.sizhengwang.cn/a/dxjy_gxdj/200526/554160.shtml"> <img
+                                        src="imgs/lunbo3.png" width="1000px" height="384px" alt="" /></a> </li>
+                        </ul>
+                    </div>
+                    <script type="text/javascript">
+                        //因为使用了document，所以js需要放在需要执行的代码下面生效才能生效
+                        var li = document.getElementById('lunbo').getElementsByTagName("li");
+                        var num = 0;
+                        var len = li.length;
+
+                        setInterval(function () {
+                            li[num].style.display = "none";
+                            num = ++num == len ? 0 : num;
+                            li[num].style.display = "inline-block";
+
+                        }, 3000);//切换时间
+                    </script>
+                </div>
+                <div class="menu1">
+                    <!-- 导航栏 -->
+                    <div class="center">
+                        <ul class="ul-list">
+                            <li><a href="http://ssdut.dlut.edu.cn/">机构设置</a></li>
+                            <li> <a href="http://ssdut.dlut.edu.cn/xygk1/xygk.htm">人才招聘</a> </li>
+                            <li> <a href="http://ssdut.dlut.edu.cn/ywgg/xueyuanxinwen.htm">图书资源</a> </li>
+                            <li> <a href="http://ssdut.dlut.edu.cn/xkyky/xkjs.htm">实验中心</a> </li>
+                            <li> <a href="http://ssdut.dlut.edu.cn/szdw/szgk.htm">实践基地</a> </li>
+                            <li> <a href="#">公共服务</a> </li>
+                            <li> <a href="http://ssdut.dlut.edu.cn/yjspy.htm">校友工作</a> </li>
+                            <li> <a href="http://ssdut.dlut.edu.cn/bkspy/bksgl/zsjy.htm">院长信箱</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <!-- 新闻通知部分 -->
+                <div class="content_left">
+                    <!-- 左边新闻通知内容 -->
+                    <div class="left1">
+                        <!-- 左上角 -->
+                        <h4>焦点新闻</h4>
+                        <div class="left1-1">
+                            <!-- 左上角第一条 -->
+                            <div class="left1-1-a">
+                                <a href="#"> <img src="imgs/left1-1.png" alt="" /> </a>
+                            </div>
+                            <div class="left1-1-txt">
+                                <a href="#">“载”思政，“育”课程，让课程思政建设有温度有力量</a>
+                                <br />
+                                <br />
+                                <p>——记《计算机组织与结构》课程思政建设为深入贯彻落实全国...</p>
+                                <b>2020-06-30</b>
+                            </div>
+                        </div>
+                        <div class="left1-1">
+                            <!-- 左上角第二条，样式与第一条一样 -->
+                            <div class="left1-1-a">
+                                <a href="#"> <img src="imgs/left1-2.png" alt="" /> </a>
+                            </div>
+                            <div class="left1-1-txt">
+                                <a href="#">“智能与软件”暨软件工程学科第五期青才云论坛圆满落幕</a>
+                                <br />
+                                <br />
+                                <p>​6月18日-20日，“智能与软件”暨软件工程学科第五期青才“...</p>
+                                <b>2020-06-24</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="left2">
+                        <!-- 右上角 -->
+                        <h4>综合新闻</h4>
+                        <div class="left2-ul">
+                            <ul>
+                                <li> <a href="#">“云”上答辩 如期毕业--软件学院2020届毕...</a> <b>2020-07-02</b> </li>
+                                <li> <a href="#">【党日活动】网络工程系教工党支部在抗疫...</a> <b>2020-06-16</b> </li>
+                                <li> <a href="#">【主题党日】本科生师生纵向第一党支部开...</a> <b>2020-06-02</b> </li>
+                                <li> <a href="#">等你来投票！选出最合适的翔广场前文字雕塑！</a> <b>2020-05-27</b> </li>
+                                <li> <a href="#">校企合作，共育桃李—华为公司联合软件学...</a> <b>2020-05-06</b> </li>
+                                <li> <a href="#">校区学子在2020年国际大学生数学建模竞赛...</a> <b>2020-05-03</b> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left3">
+                        <!-- 左下角 -->
+                        <h4>学院通知</h4>
+                        <div class="left2-ul">
+                            <ul>
+                                <li> <a href="#">关于公布软件学院“迎七一庆祝建党99周年...</a> <b>2020-07-03</b> </li>
+                                <li> <a href="#">关于软件学院开展“迎七一庆祝建党99周年...</a> <b>2020-06-29</b> </li>
+                                <li> <a href="#">软件学院关于招募2020年河南省、江苏省...</a> <b>2020-06-13</b> </li>
+                                <li> <a href="#">开发区校区关于做好2020届毕业生离校工作...</a> <b>2020-06-13</b> </li>
+                                <li> <a href="#">关于开展2020届毕业生党组织关系转接工作...</a> <b>2020-05-28</b> </li>
+                                <li> <a href="#">贺教授拟赴大连理工大学人工智能大连研...</a> <b>2020-05-13</b> </li>
+                                <li> <a href="#">软件学院2019年度教职工考核优秃建议名单...</a> <b>2020-04-20</b> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="left4">
+                        <!-- 右下角 -->
+                        <h4>本科生通知</h4>
+                        <div class="left2-ul">
+                            <ul>
+                                <li> <a href="#">关于开展软件学院2020届本科毕业资格第二...</a> <b>2020-07-16</b> </li>
+                                <li> <a href="#">转发教务处关于大连理工大学关于2020年第...</a> <b>2020-07-10</b> </li>
+                                <li> <a href="#">关于选拔软件学院2020级新生班导生的通知...</a> <b>2020-07-10</b> </li>
+                                <li> <a href="#">【科创竞赛】开发区校区2019-2020学年科创...</a> <b>2020-07-06</b> </li>
+                                <li> <a href="#">关于软件学院2020届本科毕业论文二次答辩...</a> <b>2020-07-01</b> </li>
+                                <li> <a href="#">关于2020年大学生创新创业训陈练计划项目报...</a> <b>2020-06-30</b> </li>
+                                <li> <a href="#">2020大连理工大学电子设计竟赛暨辽宁省大...</a> <b>2020-06-30</b> </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_right">
+                    <!-- 新闻通知右边内容 -->
+                    <h4>快速导航</h4>
+                    <a href="#"> <img src="imgs/right-1.png" width="206" height="60" alt="" /> </a>
+                    <a href="#"> <img src="imgs/right-2.png" width="206" height="60" alt="" /> </a>
+                    <a href="#"> <img src="imgs/right-3.png" width="206" height="60" alt="" /> </a>
+                    <h4>专题栏目</h4>
+                    <a href="#"> <img src="imgs/right-4.png" width="206" height="53" alt="" /> </a>
+                    <a href="#"> <img id="erweima" src="imgs/right-5.png" width="80" height="80" alt="" /> </a>
+                    <h4>热点链接</h4>
+                    <a href="#"> <img src="imgs/right-6.png" height="75" alt="" /> </a>
+                </div>
+            </div>
+            <div class="footer">
+                <!-- 底部 -->
+                <div class="copyright">
+                    <p>版权所有：大连理工大学软件学院 地址：大连经济技术开发区图强街321号 </p>
+                    <p>Email：ssdut@dlut.edu.cn 　电话：0411-62274389 辽ICP备09013925号</p>
+                </div>
+                <div class="author">
+                    <p>制作人：周绮</p>
+                    <p>学号：201992118</p>
+                    <p>班级：软1904</p>
+                </div>
+            </div>
+        </div>
+    </div>
