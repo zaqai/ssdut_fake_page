@@ -1,0 +1,415 @@
+body,div,ul,ol,li,h4,form,input,p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 12px;
+	line-height: 1.5
+}
+
+a,a.visited {
+	color: #069;
+	text-decoration: none
+}
+
+a:hover {
+  /* 鼠标在链接上悬停 */
+	text-decoration: none;
+	color: rgb(255, 59, 14);
+}
+
+a.current:hover {
+	text-decoration: none;
+	cursor: default
+}
+
+li {
+	list-style: none
+}
+
+.top {
+	min-width: 1000px;
+	overflow: hidden
+}
+
+.top-wp {
+	height: 180px;
+	background: url(imgs/title_logo.png);
+}
+
+.baidu {
+	float: right;
+	margin: 130px 30px 30px;
+}
+
+#search_logo {
+	background: rgb(3, 108, 181)
+}
+
+.menu {
+	position: sticky;
+	top: 0;
+	left: 133px;
+	width: 79%;
+	background: rgba(255,255,255);
+	display: flex;
+	justify-content: center;
+	z-index: 8;
+}
+
+.menu .center {
+	width: 1200px;
+}
+
+.menu .ul-list {
+	display: flex;
+}
+
+.menu .ul-list > li {
+	flex: 1;
+	border-right: 1px solid rgb(229, 229, 229);
+	position: relative;
+}
+
+.menu .ul-list > li > a {
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	text-decoration: none;
+	color: #222;
+	background: #fff;
+}
+
+.menu .ul-list > li > span {
+	color: #fff;
+	font-size: 14px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+}
+
+.menu .ul-list > li > a:hover {
+       /* 鼠标悬浮在导航上时，字体变色 */
+	color: rgb(255, 59, 14);
+}
+
+.menu .ul-list > li:hover .ol-list {
+	display: block;
+}
+
+.menu .ol-list {
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: 0;
+	z-index: 999;
+	background: rgb(176, 216, 245);
+	width: 100%;
+}
+
+.menu .ol-list > li > a {
+	font-size: 14px;
+	text-decoration: none;
+	color: rgb(3, 110, 184);
+	height: 35px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgb(0, 122, 204);
+	justify-content: center;
+}
+
+.menu .ol-list > li > a:hover {
+	color: #fff;
+}
+
+#lunbo ul li {
+	margin: 43px 20px 0 132px;
+}
+
+#lunbo ul li:not(:first-child) {
+	display: none;
+}
+
+.menu1 {
+	width: 1000px;
+	background: rgba(3, 110, 184);
+	display: flex;
+	justify-content: center;
+	z-index: 8;
+	margin: 0 132px;
+}
+
+.menu1 * {
+	box-sizing: border-box;
+}
+
+.menu1 .center {
+	width: 1200px;
+}
+
+.menu1 .ul-list {
+	display: flex;
+}
+
+.menu1 .ul-list > li {
+	flex: 1;
+	position: relative;
+}
+
+.menu1 .ul-list > li > a {
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	text-decoration: none;
+	color: rgb(173, 223, 251);
+	font-weight: bold;
+	background: rgb(3, 110, 184);
+}
+
+.menu1 .ul-list > li > span {
+	color: #fff;
+	font-size: 14px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #fff;
+}
+
+.menu1 .ul-list > li > a:hover {
+	   /* 鼠标悬浮在导航上时，字体变色 */
+	border-top: #ff3b0e solid 10px;
+	color: #fff;
+}
+
+.menu1 .ul-list > li:hover {
+	display: block;
+}
+
+.menu1 > li > a {
+	font-size: 14px;
+	text-decoration: none;
+	color: rgb(3, 110, 184);
+	height: 35px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid rgb(0, 122, 204);
+	justify-content: center;
+}
+
+.content {
+	display: block;
+	margin: 10px 130px;
+}
+
+.content_left {
+	float: left;
+	width: 363px;
+}
+
+.left1 h4 {
+	border-bottom: #036eb8 solid 2px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #036eb8;
+	position: relative;
+}
+
+.left1-1 {
+	top: 10px;
+	margin: 10px;
+}
+
+.left1-1-a a img {
+	width: 125px;
+	height: 95px;
+}
+
+.left1-1-txt {
+	float: left;
+	margin: -100px 0px 10px 130px;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.left1-1-txt a {
+	color: #000;
+}
+
+.left1-1-txt a:hover {
+	color: rgb(255, 59, 14);
+}
+
+.left1-1-txt p {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.left1-1-txt b {
+	font-weight: normal;
+	margin: 0px 0px 0 120px;
+	font-size: 10px;
+	color: #036eb8;
+}
+
+.left2 {
+	position: absolute;
+	left: 509px;
+	top: 658px;
+	margin: 0 370px 0 0;
+}
+
+.left2 h4 {
+	border-bottom: #036eb8 solid 2px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #036eb8;
+	position: relative;
+}
+
+.left2-ul {
+	margin: 10px;
+	font-size: 13px;
+}
+
+.left2-ul li {
+	display: block;
+	float: left;
+	width: 99%;
+	height: auto;
+	line-height: 35px;
+	border-bottom: 1px #ccc dashed;
+}
+
+.left2-ul b {
+	font-size: 10px;
+	font-weight: normal;
+	color: #036eb8;
+	float: right;
+}
+
+.left3 {
+	position: absolute;
+	left: 130px;
+	top: 926px;
+	margin: 0 770px 0 0px;
+}
+
+.left3 h4 {
+	border-bottom: #036eb8 solid 2px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #036eb8;
+	position: relative;
+}
+
+.left3-ul {
+	margin: 10px;
+	font-size: 13px;
+}
+
+.left4 {
+	position: absolute;
+	left: 509px;
+	top: 926px;
+	margin: 0 370px 0 0;
+}
+
+.left4 h4 {
+	border-bottom: #036eb8 solid 2px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #036eb8;
+	position: relative;
+}
+
+.left4-ul {
+	margin: 10px;
+	font-size: 13px;
+}
+
+.content_right {
+	position: absolute;
+	top: 653px;
+	left: 930px
+}
+
+.content_right h4 {
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	color: #036eb8;
+}
+
+.content_right a img {
+	border: 1px solid #ccc;
+	margin: 0 160px 0 0px;
+}
+
+#erweima {
+	margin: 10px 63px;
+}
+
+.footer {
+	width: 100%;
+	height: 90px;
+	background: #036eb8;
+	clear: both;
+	overflow: hidden;
+	position: absolute;
+	top: 1330px;
+}
+
+.copyright {
+	float: left;
+	color: #fff;
+	line-height: 28px;
+	padding-top: 18px;
+	margin: 0 0 0 150px;
+}
+
+.linear {
+	width: 100%;
+	height: 1335px;
+	background: -webkit-linear-gradient(top, rgb(9, 84, 136),rgb(179, 211, 233));
+ /*Safari5.1 Chrome 10+*/
+}
+
+.snow {
+	position: absolute;
+	z-index: 9;
+	margin: 0 0 30px;
+	width: 1263px;
+	height: 1367px;
+	background: url(imgs/snow-bg.png) repeat-y center;
+	animation: animate-snow 9s linear infinite;
+}
+
+@keyframes animate-snow {
+	0% {
+		background-position: center 0, 0 0;
+	}
+
+	100% {
+		background-position: center 885px, 0 0;
+	}
+}
+
+.author {
+	float: right;
+	position: relative;
+	right: 110px;
+	bottom: 15px;
+	color: #fff;
+	line-height: 28px;
+	padding-top: 18px;
+}
